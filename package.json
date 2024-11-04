@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"dev-windows": "rollup -c -w | tailwindcss -i src/style.css -o dist/style.css -w",
+		"dev:windows": "rollup -c -w | tailwindcss -i src/style.css -o dist/style.css -w",
 		"dev": "rollup -c -w & tailwindcss -i src/style.css -o dist/style.css -w",
 		"build": "rollup -c && tailwindcss -i src/style.css -o dist/style.css"
 	},

@@ -33,7 +33,13 @@ Funcbeat is a statement-based sound synthesizer inspired by [SArpnt's Funcbeat](
 Start the development server:
 
    ```sh
-   npm start
+   npm dev
+   ```
+
+And if you're on Windows:
+
+   ```sh
+   npm run dev:windows
    ```
 
 Build the project for production:
