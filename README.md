@@ -90,6 +90,6 @@ This project uses the [Inter](https://rsms.me/inter/) font, which is licensed un
 
 ## Acknowledgements
 
-- Inspired by and (mostly) compatible with [SArpnt's Funcbeat](https://bytebeat.ficial.net/)
+- Inspired by and (mostly) compatible with [SArpnt's Funcbeat](https://bytebeat.ficial.net/#5c7gAD8bVPZbtswEHyOvmIRJPURH7KdHoDhAkWf+9J+AU2tLcIUaXApu27Rf++Q8gUkggRI5HJmdnZkOZJVEn+pZm+ZVlQuaTqlgwpGrS0L1RyYFB6JKhpNylWklSNlj+oktMam1izCVZGwAot3ymn+4Rt2sW0yZKG9k0jOR65UVFh7fHp6KstydL56vcfMG2sjhFvR1vuK9lZppuhB7iEhoygXhazZcYaDUttC5pq1agUlgSHTbSE5JH1JrrS6vp61JwqtcUJ7DhsfmqS1AHMGi7WKdxrWqiL+nZ0Z4VNiSMiZ+1zkehEUeJE2o1zPWvFvmqhws/bNHiaJ8Q4+Wt1a6IW2EUFN7jNxAMdtz21KFiDEm43RBqbaU1EEjm1wtGmdTsepH00DkV3tTxV5QH+zoVhOgowjYQ2WW59dbUBtHqhEYy3pWrltKgCvb2Hesea0l2d/S0UKBOyuRteOj/XpHhErW3NgVzx0o9+biCGsaE7DIfX7lyRMwBe++4q/xdwBDel1sqAPNPs4oBeazwc0pdl8kMOxDWp9mfcm+OYykBxJ7w4c0BQ3JnqHChhe/7nStxbhWIH5zNLpeaYZfe28A888fQ+wOfkE7gm4xzSBDux0/Oy65jq0ozpw8XD387ys3ok/Fvtd/fj+Rxu/UzqkRSLray8XSWAf0uxzmbwoy84G6497JXDcxPqGMkK8OOfx6MOOEAmPISJR15nIxYyd0bvkhRh39SO5/gwH0HeZPIAJi0T9pRwkTa/L4uEcufuGM9Sy+Pcf)
 - [CodeMirror](https://codemirror.net/) for the code editor
 - [Tailwind CSS](https://tailwindcss.com/) for the styling
