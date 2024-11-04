@@ -30,7 +30,7 @@ Funcbeat is a statement-based sound synthesizer inspired by [SArpnt's Funcbeat](
 
 ## Usage
 
-Start the development server:
+Start the development server (Linux and macOS):
 
    ```sh
    npm dev
