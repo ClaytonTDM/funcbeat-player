@@ -90,6 +90,6 @@ This project uses the [Inter](https://rsms.me/inter/) font, which is licensed un
 
 ## Acknowledgements
 
-- Inspired by and compatible with [SArpnt's Funcbeat](https://bytebeat.ficial.net/)
+- Inspired by and (mostly) compatible with [SArpnt's Funcbeat](https://bytebeat.ficial.net/)
 - [CodeMirror](https://codemirror.net/) for the code editor
 - [Tailwind CSS](https://tailwindcss.com/) for the styling
