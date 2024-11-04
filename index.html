@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sound Synthesizer (Funcbeat)</title>
+		<link rel="stylesheet" href="inter/inter.css">
+		<link rel="stylesheet" href="dist/style.css">
+	</head>
+	<body class="bg-gray-900 p-8 text-white">
+		<div class="mx-auto max-w-4xl">
+			<h1 class="mb-6 font-bold text-3xl">Sound Synthesizer (Funcbeat)</h1>
+
+			<div class="mb-6 max-h-64">
+				<div id="code" class="w-full h-64 overflow-y-auto"></div>
+			</div>
+
+			<div class="flex space-x-4 mb-6">
+				<button
+					id="play"
+					class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded"
+				>
+					Play
+				</button>
+				<button
+					id="stop"
+					class="bg-red-500 hover:bg-red-600 px-4 py-2 rounded"
+				>
+					Stop
+				</button>
+				<div class="flex items-center">
+					<input
+						type="range"
+						id="volume"
+						min="0"
+						max="100"
+						value="50"
+						class="mr-2 w-32"
+					/>
+					<span id="volumeLabel">Volume: 50%</span>
+				</div>
+				<div class="flex items-center ml-4">
+					<label for="zoom" class="mr-2">Zoom:</label>
+					<input
+						type="range"
+						id="zoom"
+						min="1"
+						max="10"
+						value="1"
+						class="w-32"
+					/>
+				</div>
+			</div>
+
+			<canvas
+				id="visualizer"
+				width="800"
+				height="200"
+				class="border-gray-700 border w-full"
+			></canvas>
+
+			<pre id="error" class="hidden text-red-500"></pre>
+		</div>
+		<script src="dist/bundle.js"></script>
+	</body>
+</html>
