@@ -44,11 +44,10 @@ let editor = new EditorView({
 	state: startState,
 	parent: document.getElementById("code"),
 });
-function showError(error) {
+window.showError = function(error) {
 	document.getElementById("error").textContent = `thrown: ${error}`;
 	document.getElementById("error").classList.remove("hidden");
-}
-showError(null);
+};
 const dangerousAPIs = [
 	// File and Network
 	"fetch",
@@ -117,7 +116,7 @@ function deThrow(code) {
 							type: "CallExpression",
 							callee: {
 								type: "Identifier",
-								name: "showError",
+								name: "window.showError",
 							},
 							arguments: [node.argument],
 						},
