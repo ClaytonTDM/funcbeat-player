@@ -35601,6 +35601,11 @@ return function (time, sampleRate) { // time is in secs, note that samplerate ca
   	state: startState,
   	parent: document.getElementById("code"),
   });
+  function showError(error) {
+  	document.getElementById("error").textContent = `thrown: ${error}`;
+  	document.getElementById("error").classList.remove("hidden");
+  }
+  showError(null);
   const dangerousAPIs = [
   	// File and Network
   	"fetch",

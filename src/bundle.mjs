@@ -48,6 +48,7 @@ function showError(error) {
 	document.getElementById("error").textContent = `thrown: ${error}`;
 	document.getElementById("error").classList.remove("hidden");
 }
+showError(null);
 const dangerousAPIs = [
 	// File and Network
 	"fetch",
